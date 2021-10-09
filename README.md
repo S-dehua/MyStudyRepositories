@@ -3,7 +3,7 @@
 <br>
 Exercise_DotNet: 基于C#程序设计教程（第3版李春葆）的C#作业编程实现汇总
 <br><br>
-Project_CarSystem: 
+Project_CarSystem: 基于ASP.NET Web MVC的车辆租赁管理系统
 <br><br>
 Project_CrowdFunding:<br>
 尚筹网是一个在线众筹平台通过向普通大众募集资金来支持创业项目，支持者可以获得与支持金额相当的回报。<br>
