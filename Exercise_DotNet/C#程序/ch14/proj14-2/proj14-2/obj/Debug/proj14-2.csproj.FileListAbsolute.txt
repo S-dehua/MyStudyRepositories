@@ -1,0 +1,5 @@
+D:\C#程序\ch14\proj14-2\proj14-2\bin\Debug\proj14-2.exe.config
+D:\C#程序\ch14\proj14-2\proj14-2\bin\Debug\proj14-2.exe
+D:\C#程序\ch14\proj14-2\proj14-2\bin\Debug\proj14-2.pdb
+D:\C#程序\ch14\proj14-2\proj14-2\obj\Debug\proj14-2.exe
+D:\C#程序\ch14\proj14-2\proj14-2\obj\Debug\proj14-2.pdb

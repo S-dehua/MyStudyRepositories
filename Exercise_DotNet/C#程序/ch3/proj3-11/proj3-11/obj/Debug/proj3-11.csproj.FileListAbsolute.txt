@@ -1,0 +1,5 @@
+D:\C#程序\ch3\proj3-11\proj3-11\bin\Debug\proj3-11.exe.config
+D:\C#程序\ch3\proj3-11\proj3-11\bin\Debug\proj3-11.exe
+D:\C#程序\ch3\proj3-11\proj3-11\bin\Debug\proj3-11.pdb
+D:\C#程序\ch3\proj3-11\proj3-11\obj\Debug\proj3-11.exe
+D:\C#程序\ch3\proj3-11\proj3-11\obj\Debug\proj3-11.pdb

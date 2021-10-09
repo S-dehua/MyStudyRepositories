@@ -1,0 +1,6 @@
+D:\C#程序\ch8\tmp1\tmp1\bin\Debug\tmp1.exe.config
+D:\C#程序\ch8\tmp1\tmp1\obj\Debug\tmp1.csprojResolveAssemblyReference.cache
+D:\C#程序\ch8\tmp1\tmp1\bin\Debug\tmp1.exe
+D:\C#程序\ch8\tmp1\tmp1\bin\Debug\tmp1.pdb
+D:\C#程序\ch8\tmp1\tmp1\obj\Debug\tmp1.exe
+D:\C#程序\ch8\tmp1\tmp1\obj\Debug\tmp1.pdb

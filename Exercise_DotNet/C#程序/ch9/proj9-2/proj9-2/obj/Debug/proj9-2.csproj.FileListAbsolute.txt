@@ -1,0 +1,15 @@
+D:\C#程序\ch9\proj9-2\proj9-2\bin\Debug\proj9-2.exe.config
+D:\C#程序\ch9\proj9-2\proj9-2\bin\Debug\proj9-2.exe
+D:\C#程序\ch9\proj9-2\proj9-2\bin\Debug\proj9-2.pdb
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9-2.csprojResolveAssemblyReference.cache
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9_2.MForm.resources
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9_2.Properties.Resources.resources
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9_2.SForm.resources
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9-2.csproj.GenerateResource.Cache
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9-2.exe
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9-2.pdb
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9_2.MForm1.resources
+D:\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9_2.SForm1.resources
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch9\proj9-2\proj9-2\bin\Debug\proj9-2.exe.config
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9-2.exe
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch9\proj9-2\proj9-2\obj\Debug\proj9-2.pdb

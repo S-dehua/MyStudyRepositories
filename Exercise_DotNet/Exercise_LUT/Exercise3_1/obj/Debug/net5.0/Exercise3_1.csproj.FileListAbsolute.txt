@@ -1,0 +1,16 @@
+D:\C#\Study\Exercise_LUT\Exercise3_1\bin\Debug\net5.0\Exercise3_1.exe
+D:\C#\Study\Exercise_LUT\Exercise3_1\bin\Debug\net5.0\Exercise3_1.deps.json
+D:\C#\Study\Exercise_LUT\Exercise3_1\bin\Debug\net5.0\Exercise3_1.runtimeconfig.json
+D:\C#\Study\Exercise_LUT\Exercise3_1\bin\Debug\net5.0\Exercise3_1.runtimeconfig.dev.json
+D:\C#\Study\Exercise_LUT\Exercise3_1\bin\Debug\net5.0\Exercise3_1.dll
+D:\C#\Study\Exercise_LUT\Exercise3_1\bin\Debug\net5.0\ref\Exercise3_1.dll
+D:\C#\Study\Exercise_LUT\Exercise3_1\bin\Debug\net5.0\Exercise3_1.pdb
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\Exercise3_1.csprojAssemblyReference.cache
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\Exercise3_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\Exercise3_1.AssemblyInfoInputs.cache
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\Exercise3_1.AssemblyInfo.cs
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\Exercise3_1.csproj.CoreCompileInputs.cache
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\Exercise3_1.dll
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\ref\Exercise3_1.dll
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\Exercise3_1.pdb
+D:\C#\Study\Exercise_LUT\Exercise3_1\obj\Debug\net5.0\Exercise3_1.genruntimeconfig.cache

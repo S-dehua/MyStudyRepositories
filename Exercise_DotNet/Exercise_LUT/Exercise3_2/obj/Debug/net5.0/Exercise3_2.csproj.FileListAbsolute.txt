@@ -1,0 +1,15 @@
+D:\C#\Study\Exercise_LUT\Exercise3_2\bin\Debug\net5.0\Exercise3_2.exe
+D:\C#\Study\Exercise_LUT\Exercise3_2\bin\Debug\net5.0\Exercise3_2.deps.json
+D:\C#\Study\Exercise_LUT\Exercise3_2\bin\Debug\net5.0\Exercise3_2.runtimeconfig.json
+D:\C#\Study\Exercise_LUT\Exercise3_2\bin\Debug\net5.0\Exercise3_2.runtimeconfig.dev.json
+D:\C#\Study\Exercise_LUT\Exercise3_2\bin\Debug\net5.0\Exercise3_2.dll
+D:\C#\Study\Exercise_LUT\Exercise3_2\bin\Debug\net5.0\ref\Exercise3_2.dll
+D:\C#\Study\Exercise_LUT\Exercise3_2\bin\Debug\net5.0\Exercise3_2.pdb
+D:\C#\Study\Exercise_LUT\Exercise3_2\obj\Debug\net5.0\Exercise3_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Study\Exercise_LUT\Exercise3_2\obj\Debug\net5.0\Exercise3_2.AssemblyInfoInputs.cache
+D:\C#\Study\Exercise_LUT\Exercise3_2\obj\Debug\net5.0\Exercise3_2.AssemblyInfo.cs
+D:\C#\Study\Exercise_LUT\Exercise3_2\obj\Debug\net5.0\Exercise3_2.csproj.CoreCompileInputs.cache
+D:\C#\Study\Exercise_LUT\Exercise3_2\obj\Debug\net5.0\Exercise3_2.dll
+D:\C#\Study\Exercise_LUT\Exercise3_2\obj\Debug\net5.0\ref\Exercise3_2.dll
+D:\C#\Study\Exercise_LUT\Exercise3_2\obj\Debug\net5.0\Exercise3_2.pdb
+D:\C#\Study\Exercise_LUT\Exercise3_2\obj\Debug\net5.0\Exercise3_2.genruntimeconfig.cache

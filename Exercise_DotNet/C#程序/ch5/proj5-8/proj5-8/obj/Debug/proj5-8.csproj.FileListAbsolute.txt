@@ -1,0 +1,5 @@
+D:\C#程序\ch5\proj5-8\proj5-8\bin\Debug\proj5-8.exe.config
+D:\C#程序\ch5\proj5-8\proj5-8\bin\Debug\proj5-8.exe
+D:\C#程序\ch5\proj5-8\proj5-8\bin\Debug\proj5-8.pdb
+D:\C#程序\ch5\proj5-8\proj5-8\obj\Debug\proj5-8.exe
+D:\C#程序\ch5\proj5-8\proj5-8\obj\Debug\proj5-8.pdb

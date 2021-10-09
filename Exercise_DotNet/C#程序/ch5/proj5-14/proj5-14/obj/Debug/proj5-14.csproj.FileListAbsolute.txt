@@ -1,0 +1,6 @@
+D:\C#程序\ch5\proj5-14\proj5-14\bin\Debug\proj5-14.exe.config
+D:\C#程序\ch5\proj5-14\proj5-14\bin\Debug\proj5-14.exe
+D:\C#程序\ch5\proj5-14\proj5-14\bin\Debug\proj5-14.pdb
+D:\C#程序\ch5\proj5-14\proj5-14\obj\Debug\proj5-14.csprojResolveAssemblyReference.cache
+D:\C#程序\ch5\proj5-14\proj5-14\obj\Debug\proj5-14.exe
+D:\C#程序\ch5\proj5-14\proj5-14\obj\Debug\proj5-14.pdb

@@ -1,0 +1,6 @@
+D:\C#程序\ch7\proj7-3\proj7-3\bin\Debug\proj7-3.exe.config
+D:\C#程序\ch7\proj7-3\proj7-3\obj\Debug\proj7-3.csprojResolveAssemblyReference.cache
+D:\C#程序\ch7\proj7-3\proj7-3\bin\Debug\proj7-3.exe
+D:\C#程序\ch7\proj7-3\proj7-3\bin\Debug\proj7-3.pdb
+D:\C#程序\ch7\proj7-3\proj7-3\obj\Debug\proj7-3.exe
+D:\C#程序\ch7\proj7-3\proj7-3\obj\Debug\proj7-3.pdb

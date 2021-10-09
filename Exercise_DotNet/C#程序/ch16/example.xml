@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="GB2312"?>
+<A id="a1">
+	<B id="b1" name="B1">
+		<C id="c1">
+			<B id="b2" name="B2">b2</B>
+			<D id="d1">d1</D>
+			<E id="e1">e1</E>
+			<E id="e2">e2</E>
+			<E>e3</E>
+		</C> 
+	</B> 
+	<B id="b3" name="B3">b3</B>
+	<C id="c2">
+		<D id="d2">d2</D>
+		<E id="e3">e3</E>
+	</C>
+</A>

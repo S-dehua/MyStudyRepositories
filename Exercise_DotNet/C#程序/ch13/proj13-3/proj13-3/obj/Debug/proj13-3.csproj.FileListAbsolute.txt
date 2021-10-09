@@ -1,0 +1,6 @@
+D:\C#程序\ch13\proj13-3\proj13-3\bin\Debug\proj13-3.exe.config
+D:\C#程序\ch13\proj13-3\proj13-3\bin\Debug\proj13-3.exe
+D:\C#程序\ch13\proj13-3\proj13-3\bin\Debug\proj13-3.pdb
+D:\C#程序\ch13\proj13-3\proj13-3\obj\Debug\proj13-3.csprojResolveAssemblyReference.cache
+D:\C#程序\ch13\proj13-3\proj13-3\obj\Debug\proj13-3.exe
+D:\C#程序\ch13\proj13-3\proj13-3\obj\Debug\proj13-3.pdb

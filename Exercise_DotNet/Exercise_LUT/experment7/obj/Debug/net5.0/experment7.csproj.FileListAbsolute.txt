@@ -1,0 +1,16 @@
+D:\C#\Study\Exercise_LUT\experment7\bin\Debug\net5.0\experment7.exe
+D:\C#\Study\Exercise_LUT\experment7\bin\Debug\net5.0\experment7.deps.json
+D:\C#\Study\Exercise_LUT\experment7\bin\Debug\net5.0\experment7.runtimeconfig.json
+D:\C#\Study\Exercise_LUT\experment7\bin\Debug\net5.0\experment7.runtimeconfig.dev.json
+D:\C#\Study\Exercise_LUT\experment7\bin\Debug\net5.0\experment7.dll
+D:\C#\Study\Exercise_LUT\experment7\bin\Debug\net5.0\ref\experment7.dll
+D:\C#\Study\Exercise_LUT\experment7\bin\Debug\net5.0\experment7.pdb
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\experment7.csprojAssemblyReference.cache
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\experment7.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\experment7.AssemblyInfoInputs.cache
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\experment7.AssemblyInfo.cs
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\experment7.csproj.CoreCompileInputs.cache
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\experment7.dll
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\ref\experment7.dll
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\experment7.pdb
+D:\C#\Study\Exercise_LUT\experment7\obj\Debug\net5.0\experment7.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\C#程序\ch14\proj14-3\proj14-3\bin\Debug\proj14-3.exe.config
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14-3.csprojResolveAssemblyReference.cache
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14_3.Form1.resources
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14_3.Properties.Resources.resources
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14-3.csproj.GenerateResource.Cache
+D:\C#程序\ch14\proj14-3\proj14-3\bin\Debug\proj14-3.exe
+D:\C#程序\ch14\proj14-3\proj14-3\bin\Debug\proj14-3.pdb
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14-3.exe
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14-3.pdb
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14_3.Form2.resources
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14_3.Form3.resources
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14_3.Form4.resources
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14_3.Form5.resources
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14_3.Form6.resources
+D:\C#程序\ch14\proj14-3\proj14-3\obj\Debug\proj14_3.Form7.resources

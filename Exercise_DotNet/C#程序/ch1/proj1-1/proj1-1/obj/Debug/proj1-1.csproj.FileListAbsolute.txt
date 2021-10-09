@@ -1,0 +1,12 @@
+D:\C#程序\ch1\proj1-1\proj1-1\bin\Debug\proj1-1.exe.config
+D:\C#程序\ch1\proj1-1\proj1-1\bin\Debug\proj1-1.exe
+D:\C#程序\ch1\proj1-1\proj1-1\bin\Debug\proj1-1.pdb
+D:\C#程序\ch1\proj1-1\proj1-1\obj\Debug\proj1-1.csprojResolveAssemblyReference.cache
+D:\C#程序\ch1\proj1-1\proj1-1\obj\Debug\proj1-1.exe
+D:\C#程序\ch1\proj1-1\proj1-1\obj\Debug\proj1-1.pdb
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch1\proj1-1\proj1-1\bin\Debug\proj1-1.exe.config
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch1\proj1-1\proj1-1\obj\Debug\proj1-1.exe
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch1\proj1-1\proj1-1\obj\Debug\proj1-1.pdb
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch1\proj1-1\proj1-1\bin\Debug\proj1-1.exe
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch1\proj1-1\proj1-1\bin\Debug\proj1-1.pdb
+G:\C#程序设计教程（第3版）-new\教学资源\C#程序\ch1\proj1-1\proj1-1\obj\Debug\proj1-1.csprojResolveAssemblyReference.cache

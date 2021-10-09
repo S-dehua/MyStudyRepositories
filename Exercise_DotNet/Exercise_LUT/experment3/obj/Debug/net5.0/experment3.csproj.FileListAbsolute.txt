@@ -1,0 +1,15 @@
+D:\C#\Study\Exercise_LUT\experment3\bin\Debug\net5.0\experment3.exe
+D:\C#\Study\Exercise_LUT\experment3\bin\Debug\net5.0\experment3.deps.json
+D:\C#\Study\Exercise_LUT\experment3\bin\Debug\net5.0\experment3.runtimeconfig.json
+D:\C#\Study\Exercise_LUT\experment3\bin\Debug\net5.0\experment3.runtimeconfig.dev.json
+D:\C#\Study\Exercise_LUT\experment3\bin\Debug\net5.0\experment3.dll
+D:\C#\Study\Exercise_LUT\experment3\bin\Debug\net5.0\ref\experment3.dll
+D:\C#\Study\Exercise_LUT\experment3\bin\Debug\net5.0\experment3.pdb
+D:\C#\Study\Exercise_LUT\experment3\obj\Debug\net5.0\experment3.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Study\Exercise_LUT\experment3\obj\Debug\net5.0\experment3.AssemblyInfoInputs.cache
+D:\C#\Study\Exercise_LUT\experment3\obj\Debug\net5.0\experment3.AssemblyInfo.cs
+D:\C#\Study\Exercise_LUT\experment3\obj\Debug\net5.0\experment3.csproj.CoreCompileInputs.cache
+D:\C#\Study\Exercise_LUT\experment3\obj\Debug\net5.0\experment3.dll
+D:\C#\Study\Exercise_LUT\experment3\obj\Debug\net5.0\ref\experment3.dll
+D:\C#\Study\Exercise_LUT\experment3\obj\Debug\net5.0\experment3.pdb
+D:\C#\Study\Exercise_LUT\experment3\obj\Debug\net5.0\experment3.genruntimeconfig.cache

@@ -1,0 +1,6 @@
+D:\C#程序\ch8\proj8-3\proj8-3\bin\Debug\proj8-3.exe.config
+D:\C#程序\ch8\proj8-3\proj8-3\obj\Debug\proj8-3.csprojResolveAssemblyReference.cache
+D:\C#程序\ch8\proj8-3\proj8-3\bin\Debug\proj8-3.exe
+D:\C#程序\ch8\proj8-3\proj8-3\bin\Debug\proj8-3.pdb
+D:\C#程序\ch8\proj8-3\proj8-3\obj\Debug\proj8-3.exe
+D:\C#程序\ch8\proj8-3\proj8-3\obj\Debug\proj8-3.pdb

@@ -1,0 +1,6 @@
+D:\C#程序\ch14\proj14-7\proj14-7\bin\Debug\proj14-7.exe.config
+D:\C#程序\ch14\proj14-7\proj14-7\bin\Debug\proj14-7.exe
+D:\C#程序\ch14\proj14-7\proj14-7\bin\Debug\proj14-7.pdb
+D:\C#程序\ch14\proj14-7\proj14-7\obj\Debug\proj14-7.csprojResolveAssemblyReference.cache
+D:\C#程序\ch14\proj14-7\proj14-7\obj\Debug\proj14-7.exe
+D:\C#程序\ch14\proj14-7\proj14-7\obj\Debug\proj14-7.pdb

@@ -1,0 +1,10 @@
+D:\C#程序\ch9\proj9-3\proj9-3\bin\Debug\proj9-3.exe.config
+D:\C#程序\ch9\proj9-3\proj9-3\bin\Debug\proj9-3.exe
+D:\C#程序\ch9\proj9-3\proj9-3\bin\Debug\proj9-3.pdb
+D:\C#程序\ch9\proj9-3\proj9-3\obj\Debug\proj9-3.csprojResolveAssemblyReference.cache
+D:\C#程序\ch9\proj9-3\proj9-3\obj\Debug\proj9_3.Form1.resources
+D:\C#程序\ch9\proj9-3\proj9-3\obj\Debug\proj9_3.Properties.Resources.resources
+D:\C#程序\ch9\proj9-3\proj9-3\obj\Debug\proj9-3.csproj.GenerateResource.Cache
+D:\C#程序\ch9\proj9-3\proj9-3\obj\Debug\proj9-3.exe
+D:\C#程序\ch9\proj9-3\proj9-3\obj\Debug\proj9-3.pdb
+D:\C#程序\ch9\proj9-3\proj9-3\obj\Debug\proj9_3.Form2.resources

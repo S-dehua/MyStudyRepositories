@@ -1,0 +1,17 @@
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\bin\Debug\net5.0-windows\ExerciseWinForm11_4.exe
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\bin\Debug\net5.0-windows\ExerciseWinForm11_4.deps.json
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\bin\Debug\net5.0-windows\ExerciseWinForm11_4.runtimeconfig.json
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\bin\Debug\net5.0-windows\ExerciseWinForm11_4.runtimeconfig.dev.json
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\bin\Debug\net5.0-windows\ExerciseWinForm11_4.dll
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\bin\Debug\net5.0-windows\ref\ExerciseWinForm11_4.dll
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\bin\Debug\net5.0-windows\ExerciseWinForm11_4.pdb
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.Form1.resources
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.csproj.GenerateResource.cache
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.AssemblyInfoInputs.cache
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.AssemblyInfo.cs
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.csproj.CoreCompileInputs.cache
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.dll
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ref\ExerciseWinForm11_4.dll
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.pdb
+D:\C#\Study\Exercise_LUT\ExerciseWinForm11_4\obj\Debug\net5.0-windows\ExerciseWinForm11_4.genruntimeconfig.cache

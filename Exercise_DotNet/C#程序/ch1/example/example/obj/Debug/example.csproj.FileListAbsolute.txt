@@ -1,0 +1,6 @@
+D:\C#程序\ch1\example\example\bin\Debug\example.exe.config
+D:\C#程序\ch1\example\example\bin\Debug\example.exe
+D:\C#程序\ch1\example\example\bin\Debug\example.pdb
+D:\C#程序\ch1\example\example\obj\Debug\example.csprojResolveAssemblyReference.cache
+D:\C#程序\ch1\example\example\obj\Debug\example.exe
+D:\C#程序\ch1\example\example\obj\Debug\example.pdb

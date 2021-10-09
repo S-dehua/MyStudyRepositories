@@ -1,0 +1,12 @@
+D:\C#程序\ch5\proj5-13\proj5-13\bin\Debug\proj5-13.exe.config
+D:\C#程序\ch5\proj5-13\proj5-13\bin\Debug\proj5-13.exe
+D:\C#程序\ch5\proj5-13\proj5-13\bin\Debug\proj5-13.pdb
+D:\C#程序\ch5\proj5-13\proj5-13\obj\Debug\proj5-13.exe
+D:\C#程序\ch5\proj5-13\proj5-13\obj\Debug\proj5-13.pdb
+D:\教学\c#\C#程序设计教材（第3版）李春葆\C#程序\ch5\proj5-13\proj5-13\bin\Debug\proj5-13.exe.config
+D:\教学\c#\C#程序设计教材（第3版）李春葆\C#程序\ch5\proj5-13\proj5-13\bin\Debug\proj5-13.exe
+D:\教学\c#\C#程序设计教材（第3版）李春葆\C#程序\ch5\proj5-13\proj5-13\bin\Debug\proj5-13.pdb
+D:\教学\c#\C#程序设计教材（第3版）李春葆\C#程序\ch5\proj5-13\proj5-13\obj\Debug\proj5-13.csprojAssemblyReference.cache
+D:\教学\c#\C#程序设计教材（第3版）李春葆\C#程序\ch5\proj5-13\proj5-13\obj\Debug\proj5-13.csproj.CoreCompileInputs.cache
+D:\教学\c#\C#程序设计教材（第3版）李春葆\C#程序\ch5\proj5-13\proj5-13\obj\Debug\proj5-13.exe
+D:\教学\c#\C#程序设计教材（第3版）李春葆\C#程序\ch5\proj5-13\proj5-13\obj\Debug\proj5-13.pdb

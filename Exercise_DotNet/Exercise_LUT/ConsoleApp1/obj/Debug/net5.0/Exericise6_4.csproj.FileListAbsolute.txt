@@ -1,0 +1,16 @@
+D:\C#\Study\Exercise_LUT\ConsoleApp1\bin\Debug\net5.0\Exericise6_4.exe
+D:\C#\Study\Exercise_LUT\ConsoleApp1\bin\Debug\net5.0\Exericise6_4.deps.json
+D:\C#\Study\Exercise_LUT\ConsoleApp1\bin\Debug\net5.0\Exericise6_4.runtimeconfig.json
+D:\C#\Study\Exercise_LUT\ConsoleApp1\bin\Debug\net5.0\Exericise6_4.runtimeconfig.dev.json
+D:\C#\Study\Exercise_LUT\ConsoleApp1\bin\Debug\net5.0\Exericise6_4.dll
+D:\C#\Study\Exercise_LUT\ConsoleApp1\bin\Debug\net5.0\ref\Exericise6_4.dll
+D:\C#\Study\Exercise_LUT\ConsoleApp1\bin\Debug\net5.0\Exericise6_4.pdb
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\Exericise6_4.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\Exericise6_4.AssemblyInfoInputs.cache
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\Exericise6_4.AssemblyInfo.cs
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\Exericise6_4.csproj.CoreCompileInputs.cache
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\Exericise6_4.dll
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\ref\Exericise6_4.dll
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\Exericise6_4.pdb
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\Exericise6_4.genruntimeconfig.cache
+D:\C#\Study\Exercise_LUT\ConsoleApp1\obj\Debug\net5.0\Exericise6_4.csprojAssemblyReference.cache
