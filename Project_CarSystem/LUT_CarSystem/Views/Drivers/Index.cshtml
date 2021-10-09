@@ -1,0 +1,128 @@
+﻿@model PagedList.IPagedList<LUT_CarSystem.Models.Driver>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>租客信息</h2>
+
+<p>
+    @Html.ActionLink("新建用户", "Create", new { }, htmlAttributes: new { @class = "btn btn-info" })
+</p>
+
+<p>
+    @using (Html.BeginForm("Index", "Drivers", FormMethod.Get))
+    {
+    <p>
+        用户名搜索: @Html.TextBox("SearchString")
+        <input type="submit" value="查询" class="btn btn-success" />
+    </p>
+}
+    </p>
+
+    <table class="table">
+        <tr>
+            <!--<th>-->
+            @*@Html.DisplayNameFor(model => model.Name)*@
+            <!--用户名
+    </th>
+    <th>-->
+            @*@Html.DisplayNameFor(model => model.Gender)*@
+            <!--性别
+    </th>
+    <th>-->
+            @*@Html.DisplayNameFor(model => model.Phone)*@
+            <!--电话
+    </th>
+    <th>-->
+            @*@Html.DisplayNameFor(model => model.Email)*@
+            <!--邮箱
+    </th>
+    <th>-->
+            @*@Html.DisplayNameFor(model => model.Address)*@
+            <!--地址
+    </th>
+    <th>-->
+            @*@Html.DisplayNameFor(model => model.Power)*@
+            <!--权限
+    </th>-->
+
+            <th>
+                用户ID
+            </th>
+            <th>
+                @Html.ActionLink("用户名", "Index", new { sortDriver = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th>
+                密码
+            </th>
+            <th>
+                @Html.ActionLink("性别", "Index", new { sortDriver = ViewBag.GenderSortParm, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th>
+                电话
+            </th>
+            <th>
+                邮箱
+            </th>
+            <th>
+                @Html.ActionLink("地址", "Index", new { sortDriver = ViewBag.AddressSortParm, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th>
+                @Html.ActionLink("权限", "Index", new { sortDriver = ViewBag.PowerSortParm, currentFilter = ViewBag.CurrentFilter })
+            </th>
+            <th>
+                操作
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StringPower[item.Power])
+        </td>
+        <td>
+            @Html.ActionLink("编辑", "Edit", new { id = item.DriverId }, htmlAttributes: new { @class = "btn btn-info" })
+            @Html.ActionLink("详情", "Details", new { id = item.DriverId }, htmlAttributes: new { @class = "btn btn-default" })
+            @Html.ActionLink("删除", "Delete", new { id = item.DriverId }, htmlAttributes: new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+        }
+
+    </table>
+
+
+    <br />
+    当前页 @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) - 共 @Model.PageCount 页
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+
+   

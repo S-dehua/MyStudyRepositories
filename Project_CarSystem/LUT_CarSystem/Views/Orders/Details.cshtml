@@ -1,0 +1,72 @@
+﻿@model LUT_CarSystem.Models.Order
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>订单详情</h2>
+
+<div>
+    <h4>Order Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @*@Html.DisplayNameFor(model => model.DriverId)*@
+            用户ID
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DriverId)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.CarId)*@
+            车牌号
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CarId)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.TotalRent)*@
+            总租金
+        </dt>
+
+        <dd>
+            ￥@Html.DisplayFor(model => model.TotalRent)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.StartTime)*@
+            开始租赁时间
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StartTime)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.EndTime)*@
+            截止租赁时间
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EndTime)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.SalesmanName)*@
+            业务员姓名
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesmanName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("编辑", "Edit", new { id = Model.OrderId }, htmlAttributes: new { @class = "btn btn-info" }) 
+    @Html.ActionLink("返回列表", "Index", new { }, htmlAttributes: new { @class = "btn btn-success" })
+</p>

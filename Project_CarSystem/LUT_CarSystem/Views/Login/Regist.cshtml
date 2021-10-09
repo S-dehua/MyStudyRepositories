@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewBag.Title = "Regist";
+}
+
+<h2>Regist</h2>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <form action="VerfiyRegist" method="post">
+
+        @*@if (Request.Cookies["msg"] != null)
+        {
+            <div style="width: 100pc; height: 30px; color: lawngreen;">
+                @Request.Cookies["msg"].Value;
+            </div>
+        }*@
+
+        
+        用户编号: <input type="text" name="DriverId" placeholder="id为数字:111111" /><br /> <br />
+        用户名:  <input type="text" name="Name" /><br /> <br />
+        密码: <input type="password" name="Password" /><br /><br />
+        确认密码: <input type="password" name="rpwd" /><br /><br />
+        性别:<input type="text" name="Gender" /><br /><br />
+        邮箱:<input type="email" name="Email" /><br /><br />
+        住址: <input type="text" name="Address" /><br /><br />
+        手机号:<input type="text" name="Phone" /><br /><br />
+        访问权力: <input type="text" name="Power" value="0" /><br /><br />
+
+        <input type="submit" value="注册" />
+        <a href="Login">返回登录</a>
+
+    </form>
+
+
+</body>
+</html>
+
+

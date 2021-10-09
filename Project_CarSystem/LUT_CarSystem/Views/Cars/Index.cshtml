@@ -1,0 +1,136 @@
+﻿@model PagedList.IPagedList<LUT_CarSystem.Models.Car>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>车辆信息</h2>
+
+<p>
+    @Html.ActionLink("添加车辆", "Create", new { }, htmlAttributes: new { @class = "btn btn-info" })
+</p>
+
+<p>
+    @using (Html.BeginForm("Index", "Cars", FormMethod.Get))
+    {
+    <p>
+        车种搜索: @Html.TextBox("SearchString")
+        <input type="submit" value="查询" class="btn btn-success" />
+        <b style="color:red">@ViewBag.Message</b>
+    </p>
+}
+    </p>
+
+    <table class="table">
+        <tr>
+            <!--<th>-->
+            @*@Html.DisplayNameFor(model => model.Type)*@
+            <!--车种
+    </th>
+    <th>-->
+            @*@Html.DisplayNameFor(model => model.CarName)*@
+            <!--车辆名
+    </th>
+    <th>-->
+            @*@Html.DisplayNameFor(model => model.Money)*@
+            <!--日租金
+    </th>
+    <th>-->
+            @*@Html.DisplayNameFor(model => model.State)*@
+            <!--租赁状态
+    </th>-->
+            <th>
+                @Html.ActionLink("车种", "Index", new { sortCar = ViewBag.TypeSortParm })
+            </th>
+            <th>
+                车辆名
+            </th>
+            <th>
+                车辆编号
+            </th>
+            <th>
+                @Html.ActionLink("日租金", "Index", new { sortCar = ViewBag.MoneySortParm })
+            </th>
+            <th>
+                @Html.ActionLink("租赁状态", "Index", new { sortCar = ViewBag.StateSortParm })
+            </th>
+            <th>
+                <div align="center">
+                    操作
+                </div>
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Money)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StringState[item.State])
+            @*@Html.DisplayFor(modelItem => item.State)*@
+        </td>
+        <td>
+            <div align="center">
+                @Html.ActionLink("编辑", "Edit", new { id = item.CarId }, htmlAttributes: new { @class = "btn btn-info" })
+                @Html.ActionLink("详情", "Details", new { id = item.CarId }, htmlAttributes: new { @class = "btn btn-default" })
+                @Html.ActionLink("删除", "Delete", new { id = item.CarId }, htmlAttributes: new { @class = "btn btn-danger" })
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#@item.CarId " }>
+                    租赁
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id=@item.CarId tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">确定租赁</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="alert-success">
+                                    车种：@Html.DisplayFor(modelItem => item.Type) <br />
+                                    车辆名：@Html.DisplayFor(modelItem => item.CarName) <br />
+                                    日租金：@Html.DisplayFor(modelItem => item.Money) <br />
+                                    租赁状态：@Html.DisplayFor(modelItem => item.StringState[item.State]) <br />
+                                    @*@Html.DisplayFor(modelItem => item.State) <br />*@
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                @*@Html.ActionLink("确定", "Rent", "Cars", new { id = item.CarId }, htmlAttributes: new { @class = "btn btn-primary" })*@
+                                @*<button type="button" class="btn btn-primary">确定</button>*@
+                                @Html.ActionLink("确定", "Create", "Orders", new { id = item.CarId }, htmlAttributes: new { @class = "btn btn-primary" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+        }
+
+    </table>
+
+    <br />
+    当前页 @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) - 共 @Model.PageCount 页
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+
+
+

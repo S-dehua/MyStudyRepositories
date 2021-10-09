@@ -1,0 +1,63 @@
+﻿@model LUT_CarSystem.Models.Car
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>车辆详情</h2>
+
+<div>
+    <h4>Car Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @*@Html.DisplayNameFor(model => model.Type)*@
+            车种
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.CarName)*@
+            车辆名
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CarName)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.CarName)*@
+            车编号
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CarId)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.Money)*@
+            日租金
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Money)
+        </dd>
+
+        <dt>
+            @*@Html.DisplayNameFor(model => model.State)*@
+            租赁状态
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.State)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("编辑", "Edit", new { id = Model.CarId },htmlAttributes: new { @class = "btn btn-info" }) 
+    @Html.ActionLink("返回列表", "Index", new { }, htmlAttributes: new { @class = "btn btn-success" })
+</p>

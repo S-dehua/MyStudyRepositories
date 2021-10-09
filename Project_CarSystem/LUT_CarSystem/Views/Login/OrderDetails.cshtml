@@ -1,0 +1,84 @@
+﻿@model LUT_CarSystem.Models.Order
+@using LUT_CarSystem.Models;
+@{
+
+    IList<Order> list = (IList<Order>)Session["userOrder"];
+}
+@{
+    ViewBag.Title = "OrderDetails";
+}
+
+<h2>我的订单</h2>
+
+<div>
+    <h4></h4>
+    <hr />
+    @if (Session["userOrder"] != null)
+    {
+    foreach (Order item in list)
+    {
+<div class="alert alert-success">
+    <dl class="dl-horizontal">
+        <dt>
+            用户ID
+        </dt>
+
+        <dd>
+            @item.DriverId
+        </dd>
+
+        <dt>
+            车牌号
+        </dt>
+
+        <dd>
+            @item.CarId
+        </dd>
+
+        <dt>
+            总租金
+        </dt>
+
+        <dd>
+            @item.TotalRent
+        </dd>
+
+        <dt>
+            开始租赁时间
+        </dt>
+
+        <dd>
+            @item.StartTime
+        </dd>
+
+        <dt>
+            截止租赁时间
+
+        </dt>
+
+        <dd>
+            @item.EndTime
+        </dd>
+
+        <dt>
+            业务员姓名
+
+        </dt>
+
+        <dd>
+            @item.SalesmanName
+        </dd>
+
+    </dl>
+</div>
+   <br/>
+    }
+   }
+        @if (Session["userOrder"] == null) { 
+           <h3>该用户目前没有订单<small>The user currently has no order</small></h3>
+    
+         }
+</div>
+<p>
+
+</p>

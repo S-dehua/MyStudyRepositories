@@ -1,0 +1,25 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: atguigu-crowd-project
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false #开发时禁用缓存
+  redis:
+    host: 8.131.50.70
+    password: 113220
+  session:
+    store-type: redis
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka
+aliyun:
+  oss:
+    access-key-id: LTAI5tMxEnnDbo6yiBKTEeF7
+    access-key-secret: vZ7F0EVZRwAxr87bXq1jbOGCkJEiN5
+    bucket-domain: http://sdehua.oss-cn-hangzhou.aliyuncs.com
+    bucket-name: sdehua
+    end-point: http://oss-cn-hangzhou.aliyuncs.com

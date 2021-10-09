@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" lang="zh-cn">
+</head>
+<body>
+    <div class="container">
+
+        <div class="panel panel-heading">
+            <h1>登录<small> login </small></h1>
+        </div>
+
+        <form action="VerfiyLogin" method="post">
+
+
+            @if (Request.Cookies["msg"] != null)
+            {
+                <div style="width: 100pc; height: 30px; color: red;">
+                    @Request.Cookies["msg"].Value;
+                </div>
+            }
+
+
+            @*<input type="text" name="Name" /><br /> <br />*@
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1"></span>
+                <input type="text" name="Name" class="form-control" placeholder="用户名" aria-describedby="sizing-addon1">
+            </div>
+            @*<input type="password" name="Password" /><br /><br />*@
+        <br />
+         
+            <div class="input-group input-group-lg">
+                <span class="input-group-addon" id="sizing-addon1"></span>
+                <input type="password" name="Password" class="form-control" placeholder="密码" aria-describedby="sizing-addon1">
+            </div>
+            <br />
+            <input type="submit" value="登录" class="btn btn-primary"/>
+            <a href="~/Drivers/Create?Type=Regist" class="btn btn-success">注册</a>
+
+        </form>
+
+
+    </div>
+</body>
+</html>
+

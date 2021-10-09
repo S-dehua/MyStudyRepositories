@@ -1,0 +1,118 @@
+﻿@model PagedList.IPagedList<LUT_CarSystem.Models.Order>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>订单信息</h2>
+
+<p>
+    @Html.ActionLink("新建订单", "Create", new { }, htmlAttributes: new { @class = "btn btn-info" })
+
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Orders", FormMethod.Get))
+    {
+    <p>
+        用户ID搜索: @Html.TextBox("SearchString")
+        <input type="submit" value="查询" class="btn btn-success"/>
+    </p>
+}
+    </p>
+
+
+    <table class="table">
+        <tr>
+            <!--<th>-->
+            @*@Html.DisplayNameFor(model => model.DriverId)*@
+            <!--用户ID
+            </th>
+            <th>-->
+            @*@Html.DisplayNameFor(model => model.CarId)*@
+            <!--车牌号
+            </th>
+            <th>-->
+            @*@Html.DisplayNameFor(model => model.TotalRent)*@
+            <!--总租金
+            </th>
+            <th>-->
+            @*@Html.DisplayNameFor(model => model.StartTime)*@
+            <!--开始租赁时间
+            </th>
+            <th>-->
+            @*@Html.DisplayNameFor(model => model.EndTime)*@
+            <!--截止租赁时间
+            </th>
+            <th>-->
+            @*@Html.DisplayNameFor(model => model.SalesmanName)*@
+            <!--业务员姓名
+            </th>-->
+            <th>
+                订单编号
+            </th>
+            <th>
+                用户ID
+            </th>
+            <th>
+                车辆编号
+            </th>
+            <th>
+                @Html.ActionLink("总租金", "Index", new { sortOrder = ViewBag.TotalRentSortParm })
+            </th>
+            <th>
+                @Html.ActionLink("开始租赁时间", "Index", new { sortOrder = ViewBag.StartTimeSortParm })
+            </th>
+            <th>
+                @Html.ActionLink("截止租赁时间", "Index", new { sortOrder = ViewBag.EndTimeSortParm })
+            </th>
+            <th>
+                @Html.ActionLink("业务员姓名", "Index", new { sortOrder = ViewBag.SalesmanNameSortParm })
+            </th>
+            <th>
+                操作
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CarId)
+        </td>
+        <td>
+            ￥@Html.DisplayFor(modelItem => item.TotalRent)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesmanName)
+        </td>
+        <td>
+            @Html.ActionLink("编辑", "Edit", new { id = item.OrderId }, htmlAttributes: new { @class = "btn btn-info" })
+            @Html.ActionLink("详情", "Details", new { id = item.OrderId }, htmlAttributes: new { @class = "btn btn-default" })
+            @Html.ActionLink("删除", "Delete", new { id = item.OrderId }, htmlAttributes: new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+        }
+
+    </table>
+
+    <br />
+    当前页 @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) - 共 @Model.PageCount 页
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+

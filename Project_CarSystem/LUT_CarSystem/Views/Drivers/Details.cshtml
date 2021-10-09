@@ -1,0 +1,74 @@
+﻿@model LUT_CarSystem.Models.Driver
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>用户信息详情</h2>
+
+<div>
+    <h4>Driver Infomation Details</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            用户名
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            密码
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+
+        <dt>
+            性别
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            电话
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+
+        <dt>
+            邮箱
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            地址
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            权限
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Power)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("编辑", "Edit", new { id = Model.DriverId },htmlAttributes: new { @class = "btn btn-info" }) 
+    @Html.ActionLink("返回列表", "Index", new { }, htmlAttributes: new { @class = "btn btn-success" })
+</p>

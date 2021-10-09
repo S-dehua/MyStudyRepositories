@@ -1,0 +1,9 @@
+﻿@using LUT_CarSystem.Models;
+@{
+    ViewBag.Title = "Success";
+    Driver d = (Driver)Session["user"];
+}
+
+<h2>Success</h2>
+User is 
+@d.Name
